@@ -29,6 +29,7 @@ public class UserDocument {
 	private String type;
 	
 	//@Lob 
+	//commit number 4 jenkins test
 	@Basic(fetch = FetchType.LAZY)
 	@Column(name="content", nullable=false)
 	private byte[] content;
